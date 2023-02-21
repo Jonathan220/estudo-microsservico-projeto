@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: greeting-service
+  cloud:
+    config:
+      enabled: false
+greeting-service:
+  greeting: "Olá"
+  default-value: "Mundo"
